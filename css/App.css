@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  --compens-padding: 100px;
+  --compens-padding: calc(5.5vh + 2.5vw);
 }
 body {
   background-color: #000000;
@@ -40,4 +40,10 @@ button {
   padding-right: 130px;
   box-sizing: border-box;
   margin: 0 auto;
+}
+@media (max-width: 1440px) {
+  .container {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
 }
