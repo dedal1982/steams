@@ -17,7 +17,6 @@
   padding-left: 130px;
   padding-right: 130px;
   box-sizing: border-box;
-  border: 1px solid #ffffff;
 }
 @media (max-width: 1440px) {
   .header__wrapper {
@@ -30,7 +29,6 @@
   width: 187px;
   min-width: 135px;
   height: auto;
-  border: 1px solid #ffffff;
 }
 .header__logo img {
   width: 100%;
@@ -65,7 +63,6 @@
   margin-left: auto;
   height: 100%;
   position: relative;
-  border: 1px solid #ffffff;
 }
 .header__social li a {
   width: 80%;
